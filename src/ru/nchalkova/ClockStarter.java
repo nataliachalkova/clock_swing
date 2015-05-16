@@ -23,7 +23,6 @@ public class ClockStarter {
 		f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
 		MyJPanel p = new MyJPanel();
-		p.setBorder(BorderFactory.createLineBorder(Color.blue));
 		f.add(p);
 		ClockBehavior behaviour = new ClockBehavior();
 		behaviour.connectTo(p);
