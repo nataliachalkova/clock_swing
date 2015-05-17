@@ -1,12 +1,10 @@
 package ru.nchalkova;
 
-import java.awt.Color;
 import java.awt.Dimension;
 import java.util.Date;
 import java.util.Timer;
 import java.util.TimerTask;
 
-import javax.swing.BorderFactory;
 import javax.swing.JFrame;
 import javax.swing.SwingUtilities;
 
